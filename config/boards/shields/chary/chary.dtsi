@@ -9,7 +9,7 @@
 #include "chary-layouts.dtsi"
 
 &physical_layout0 {
-    transform = <&matrix_transform0>;
+    transform = <&default_transform>;
 };
 
 / {
@@ -19,7 +19,7 @@
 		zmk,physical-layout = &physical_layout0;
 	};
 
-	matrix_transform0: keymap_transform_0 {
+	default_transform: keymap_transform_0 {
 		compatible = "zmk,matrix-transform";
 		columns = <12>;
 		rows = <5>;
