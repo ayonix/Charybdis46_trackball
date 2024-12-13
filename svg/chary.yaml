@@ -1,6 +1,6 @@
 layers:
   base:
-  - DE CARET
+  - ˆ
   - '1'
   - '2'
   - '3'
@@ -22,9 +22,9 @@ layers:
   - F
   - O
   - U
-  - DE A UMLAUT
-  - BACKSPACE
-  - DE SZ
+  - Ä
+  - $$mdi:backspace-outline$$
+  - ß
   - {t: R, h: LGUI}
   - {t: S, h: LALT}
   - {t: N, h: LCTRL}
@@ -35,7 +35,7 @@ layers:
   - {t: E, h: LCTRL}
   - {t: I, h: LALT}
   - {t: A, h: LGUI}
-  - ','
+  - COMMA
   - {t: LSHFT, h: sticky}
   - {t: DE Z, h: button}
   - {t: V, h: RALT}
@@ -44,17 +44,17 @@ layers:
   - J
   - DE Y
   - K
-  - DE O UMLAUT
-  - {t: DE U UMLAUT, h: RALT}
-  - .
-  - DE SLASH
+  - Ö
+  - {t: Ü, h: RALT}
+  - DOT
+  - /
   - ''
   - {t: LSHIFT, h: sticky}
   - {t: ESC, h: media}
-  - {t: SPACE, h: nav}
+  - {t: '$$mdi:keyboard-space$$', h: nav}
   - {t: TAB, h: mouse}
   - {t: ENTER, h: symbol}
-  - {t: BACKSPACE, h: number}
+  - {t: '$$mdi:backspace-outline$$', h: number}
   - {t: DEL, h: fun}
   game:
   - '5'
@@ -80,7 +80,7 @@ layers:
   - I
   - O
   - P
-  - DE HASH
+  - '#'
   - G
   - LSHFT
   - A
@@ -91,8 +91,8 @@ layers:
   - J
   - K
   - L
-  - DE O UMLAUT
-  - DE A UMLAUT
+  - Ö
+  - Ä
   - B
   - LCTRL
   - DE Z
@@ -101,17 +101,17 @@ layers:
   - V
   - M
   - N
-  - DE COMMA
-  - DE DOT
-  - DE MINUS
+  - ','
+  - .
+  - '-'
   - ''
   - ''
   - ''
   - LEFT ALT
-  - SPACE
+  - $$mdi:keyboard-space$$
   - fun
   - {t: ENTER, h: symbol}
-  - {t: BACKSPACE, h: number}
+  - {t: '$$mdi:backspace-outline$$', h: number}
   - {t: DEL, h: fun}
   nav:
   - ''
@@ -128,9 +128,9 @@ layers:
   - ''
   - ''
   - ''
-  - {t: game, h: toggle}
+  - {t: game, h: '$$mdi:toggle-switch$$'}
   - ''
-  - {t: base, h: toggle}
+  - {t: base, h: '$$mdi:toggle-switch$$'}
   - ''
   - ''
   - ''
@@ -145,10 +145,10 @@ layers:
   - {t: LSHIFT, h: sticky}
   - ''
   - '&caps_word'
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-up$$
+  - $$mdi:arrow-right$$
   - ''
   - ''
   - ''
@@ -168,7 +168,7 @@ layers:
   - {type: held}
   - ''
   - ENTER
-  - BACKSPACE
+  - $$mdi:backspace-outline$$
   - DEL
   mouse:
   - ''
@@ -185,9 +185,9 @@ layers:
   - ''
   - ''
   - ''
-  - {t: game, h: toggle}
+  - {t: game, h: '$$mdi:toggle-switch$$'}
   - ''
-  - {t: base, h: toggle}
+  - {t: base, h: '$$mdi:toggle-switch$$'}
   - ''
   - ''
   - ''
@@ -202,10 +202,10 @@ layers:
   - {t: LSHIFT, h: sticky}
   - ''
   - ''
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_UP'
-  - '&mmv MOVE_RIGHT'
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-left$$', type: sym_by_sym}
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-down$$', type: sym_by_sym}
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-up$$', type: sym_by_sym}
+  - {t: '$$mdi:tortoise$$', s: '$$mdi:arrow-right$$', type: sym_by_sym}
   - ''
   - ''
   - ''
@@ -215,8 +215,8 @@ layers:
   - ''
   - ''
   - '&msc SCRL_LEFT'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
+  - $$mdi:mouse-move-down$$
+  - $$mdi:mouse-move-up$$
   - '&msc SCRL_RIGHT'
   - ''
   - ''
@@ -239,18 +239,18 @@ layers:
   - ''
   - ''
   - ''
-  - BT CLR
+  - {t: '$$mdi:bluetooth-settings$$', s: '$$mdi:close-thick$$', type: sym_sub_text}
   - ''
   - ''
-  - {t: game, h: toggle}
+  - {t: game, h: '$$mdi:toggle-switch$$'}
   - ''
-  - {t: base, h: toggle}
-  - ''
-  - ''
-  - BT PRV
+  - {t: base, h: '$$mdi:toggle-switch$$'}
   - ''
   - ''
-  - BT NXT
+  - {t: '$$mdi:bluetooth$$', s: '$$mdi:skip-previous$$', type: sym_sub_text}
+  - ''
+  - ''
+  - {t: '$$mdi:bluetooth$$', s: '$$mdi:skip-next$$', type: sym_sub_text}
   - ''
   - ''
   - {t: LGUI, h: sticky}
@@ -259,10 +259,10 @@ layers:
   - {t: LSHIFT, h: sticky}
   - ''
   - ''
-  - PREV
-  - VOL DN
-  - VOL UP
-  - NEXT
+  - $$mdi:skip-backward$$
+  - $$mdi:volume-minus$$
+  - $$mdi:volume-plus$$
+  - $$mdi:skip-forward$$
   - ''
   - ''
   - ''
@@ -270,11 +270,11 @@ layers:
   - ''
   - ''
   - ''
-  - OUT TOG
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$', type: toggle}
+  - {t: '$$mdi:bluetooth-connect$$', s: '0', type: sym_sub_text}
+  - {t: '$$mdi:bluetooth-connect$$', s: '1', type: sym_sub_text}
+  - {t: '$$mdi:bluetooth-connect$$', s: '2', type: sym_sub_text}
+  - {t: '$$mdi:bluetooth-connect$$', s: '3', type: sym_sub_text}
   - ''
   - ''
   - ''
@@ -283,7 +283,7 @@ layers:
   - ''
   - STOP
   - PLAY PAUSE
-  - MUTE
+  - $$mdi:volume-mute$$
   number:
   - ''
   - ''
@@ -298,19 +298,19 @@ layers:
   - ''
   - ''
   - ''
-  - DE SLASH
+  - /
   - '7'
   - '8'
   - '9'
   - KP MULTIPLY
   - ''
-  - {t: base, h: toggle}
+  - {t: base, h: '$$mdi:toggle-switch$$'}
   - ''
-  - {t: game, h: toggle}
+  - {t: game, h: '$$mdi:toggle-switch$$'}
   - ''
   - ''
   - ''
-  - DE SEMI
+  - ;
   - '4'
   - '5'
   - '6'
@@ -335,7 +335,7 @@ layers:
   - ''
   - ''
   - ''
-  - .
+  - DOT
   - '0'
   - KP MINUS
   - ''
@@ -361,9 +361,9 @@ layers:
   - F9
   - PSCRN
   - ''
-  - {t: base, h: toggle}
+  - {t: base, h: '$$mdi:toggle-switch$$'}
   - ''
-  - {t: game, h: toggle}
+  - {t: game, h: '$$mdi:toggle-switch$$'}
   - ''
   - ''
   - ''
@@ -412,46 +412,46 @@ layers:
   - ''
   - ''
   - ''
-  - DE CARET
-  - DE GT
-  - DE PERCENT
-  - DE LT
-  - DE QUESTION
-  - DE TILDE
-  - DE LBKT
-  - DE DLLR
-  - DE RBKT
-  - DE BSLH
+  - ˆ
+  - '>'
+  - '%'
+  - <
+  - '?'
+  - '~'
+  - '['
+  - $
+  - ']'
+  - \
   - ''
   - ''
-  - DE PLUS
-  - DE RPAR
-  - DE EQUAL
-  - DE LPAR
-  - DE HASH
-  - DE AT
-  - DE LBRC
-  - DE DQT
-  - DE RBRC
-  - DE PIPE
+  - +
+  - )
+  - '='
+  - (
+  - '#'
+  - '@'
+  - '{'
+  - '"'
+  - '}'
+  - '|'
   - ''
   - ''
-  - DE MINUS
-  - DE ASTRK
-  - DE COLON
-  - DE PLUS
-  - DE EXCL
-  - DE SQT
-  - DE AMPS
-  - DE GRAVE
-  - DE DOT
-  - DE SLASH
+  - '-'
+  - '*'
+  - ':'
+  - +
+  - '!'
+  - ''''
+  - '&'
+  - '`'
+  - .
+  - /
   - ''
   - ''
   - ''
-  - DE SEMI
-  - SPACE
-  - DE UNDER
+  - ;
+  - $$mdi:keyboard-space$$
+  - _
   - {type: held}
   - ''
   - ''
