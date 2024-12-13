@@ -1,0 +1,517 @@
+layers:
+  base:
+  - DE CARET
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
+  - X
+  - M
+  - L
+  - C
+  - P
+  - Q
+  - F
+  - O
+  - U
+  - DE A UMLAUT
+  - BACKSPACE
+  - DE SZ
+  - {t: R, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: N, h: LCTRL}
+  - {t: T, h: LSHIFT}
+  - G
+  - B
+  - {t: H, h: LSHIFT}
+  - {t: E, h: LCTRL}
+  - {t: I, h: LALT}
+  - {t: A, h: LGUI}
+  - ','
+  - {t: LSHFT, h: sticky}
+  - {t: DE Z, h: button}
+  - {t: V, h: RALT}
+  - W
+  - D
+  - J
+  - DE Y
+  - K
+  - DE O UMLAUT
+  - {t: DE U UMLAUT, h: RALT}
+  - .
+  - DE SLASH
+  - ''
+  - {t: LSHIFT, h: sticky}
+  - {t: ESC, h: media}
+  - {t: SPACE, h: nav}
+  - {t: TAB, h: mouse}
+  - {t: ENTER, h: symbol}
+  - {t: BACKSPACE, h: number}
+  - {t: DEL, h: fun}
+  game:
+  - '5'
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - T
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - DE HASH
+  - G
+  - LSHFT
+  - A
+  - S
+  - D
+  - F
+  - H
+  - J
+  - K
+  - L
+  - DE O UMLAUT
+  - DE A UMLAUT
+  - B
+  - LCTRL
+  - DE Z
+  - X
+  - C
+  - V
+  - M
+  - N
+  - DE COMMA
+  - DE DOT
+  - DE MINUS
+  - ''
+  - ''
+  - ''
+  - LEFT ALT
+  - SPACE
+  - fun
+  - {t: ENTER, h: symbol}
+  - {t: BACKSPACE, h: number}
+  - {t: DEL, h: fun}
+  nav:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: game, h: toggle}
+  - ''
+  - {t: base, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: LSHIFT, h: sticky}
+  - ''
+  - '&caps_word'
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ENTER
+  - BACKSPACE
+  - DEL
+  mouse:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: game, h: toggle}
+  - ''
+  - {t: base, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: LSHIFT, h: sticky}
+  - ''
+  - ''
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_RIGHT'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - '&mkp RCLK'
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  media:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - ''
+  - ''
+  - {t: game, h: toggle}
+  - ''
+  - {t: base, h: toggle}
+  - ''
+  - ''
+  - BT PRV
+  - ''
+  - ''
+  - BT NXT
+  - ''
+  - ''
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: LSHIFT, h: sticky}
+  - ''
+  - ''
+  - PREV
+  - VOL DN
+  - VOL UP
+  - NEXT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - OUT TOG
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - STOP
+  - PLAY PAUSE
+  - MUTE
+  number:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - DE SLASH
+  - '7'
+  - '8'
+  - '9'
+  - KP MULTIPLY
+  - ''
+  - {t: base, h: toggle}
+  - ''
+  - {t: game, h: toggle}
+  - ''
+  - ''
+  - ''
+  - DE SEMI
+  - '4'
+  - '5'
+  - '6'
+  - KP EQUAL
+  - ''
+  - {t: LSHIFT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
+  - ''
+  - ''
+  - DE PRCNT
+  - '1'
+  - '2'
+  - '3'
+  - KP PLUS
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - .
+  - '0'
+  - KP MINUS
+  - ''
+  - {type: held}
+  - ''
+  fun:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F12
+  - F7
+  - F8
+  - F9
+  - PSCRN
+  - ''
+  - {t: base, h: toggle}
+  - ''
+  - {t: game, h: toggle}
+  - ''
+  - ''
+  - ''
+  - F11
+  - F4
+  - F5
+  - F6
+  - ''
+  - ''
+  - {t: LSHIFT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
+  - ''
+  - ''
+  - F10
+  - F1
+  - F2
+  - F3
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  symbol:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - DE CARET
+  - DE GT
+  - DE PERCENT
+  - DE LT
+  - DE QUESTION
+  - DE TILDE
+  - DE LBKT
+  - DE DLLR
+  - DE RBKT
+  - DE BSLH
+  - ''
+  - ''
+  - DE PLUS
+  - DE RPAR
+  - DE EQUAL
+  - DE LPAR
+  - DE HASH
+  - DE AT
+  - DE LBRC
+  - DE DQT
+  - DE RBRC
+  - DE PIPE
+  - ''
+  - ''
+  - DE MINUS
+  - DE ASTRK
+  - DE COLON
+  - DE PLUS
+  - DE EXCL
+  - DE SQT
+  - DE AMPS
+  - DE GRAVE
+  - DE DOT
+  - DE SLASH
+  - ''
+  - ''
+  - ''
+  - DE SEMI
+  - SPACE
+  - DE UNDER
+  - {type: held}
+  - ''
+  - ''
+  button:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [13, 17]
+  k: '&bootloader'
