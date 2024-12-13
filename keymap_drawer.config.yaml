@@ -20,6 +20,7 @@ parse_config:
     DE_O_UMLAUT: "Ö"
     DE_U_UMLAUT: "Ü"
     DE_COMMA: ","
+    COMMA: ","
     DE_DOT: "."
     DOT: "."
     DE_MINUS: "-"
@@ -126,6 +127,9 @@ parse_config:
       tap: $$mdi:bluetooth$$
       shifted: $$mdi:skip-next$$
       type: sym_sub_text
+    "&mkp LCLK": "$$mdi:mouse-left-click"
+    "&mkp RCLK": "$$mdi:mouse-right-click"
+    "&mkp MCLK": "$$mdi:mouse-scroll-wheel"
     "&msc SCRL_UP": "$$mdi:mouse-move-up$$"
     "&msc SCRL_DOWN": "$$mdi:mouse-move-down$$"
     "&mmv MOVE_LEFT":

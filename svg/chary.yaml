@@ -35,7 +35,7 @@ layers:
   - {t: E, h: LCTRL}
   - {t: I, h: LALT}
   - {t: A, h: LGUI}
-  - COMMA
+  - ','
   - {t: LSHFT, h: sticky}
   - {t: DE Z, h: button}
   - {t: V, h: RALT}
@@ -224,9 +224,9 @@ layers:
   - ''
   - ''
   - {type: held}
-  - '&mkp RCLK'
-  - '&mkp LCLK'
-  - '&mkp MCLK'
+  - $$mdi:mouse-right-click
+  - $$mdi:mouse-left-click
+  - $$mdi:mouse-scroll-wheel
   media:
   - ''
   - ''
@@ -487,9 +487,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - '&mkp MCLK'
-  - '&mkp RCLK'
+  - $$mdi:mouse-left-click
+  - $$mdi:mouse-scroll-wheel
+  - $$mdi:mouse-right-click
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -499,9 +499,9 @@ layers:
   - Ctl+ V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - '&mkp MCLK'
-  - '&mkp RCLK'
+  - $$mdi:mouse-left-click
+  - $$mdi:mouse-scroll-wheel
+  - $$mdi:mouse-right-click
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

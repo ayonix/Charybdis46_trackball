@@ -344,7 +344,7 @@ path.combo {
 </g>
 <g transform="translate(910, 161)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">COMMA</text>
+<text x="0" y="0" class="key tap">,</text>
 </g>
 <g transform="translate(28, 217)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1097,21 +1097,15 @@ path.combo {
 </g>
 <g transform="translate(558, 336) rotate(-30.0)" class="key keypos-53">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">RCLK</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">$$mdi:mous…</tspan></text>
 </g>
 <g transform="translate(607, 308) rotate(-30.0)" class="key keypos-54">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">LCLK</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">$$mdi:mous…</tspan></text>
 </g>
 <g transform="translate(586, 384) rotate(-30.0)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MCLK</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">$$mdi:mous…</tspan></text>
 </g>
 <g class="combo combopos-0">
 <path d="M196,105 l-93,0" class="combo"/>
@@ -2096,21 +2090,15 @@ path.combo {
 </g>
 <g transform="translate(686, 147)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">LCLK</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">$$mdi:mous…</tspan></text>
 </g>
 <g transform="translate(742, 140)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MCLK</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">$$mdi:mous…</tspan></text>
 </g>
 <g transform="translate(798, 147)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">RCLK</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">$$mdi:mous…</tspan></text>
 </g>
 <g transform="translate(854, 161)" class="key trans keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -2155,21 +2143,15 @@ path.combo {
 </g>
 <g transform="translate(686, 203)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">LCLK</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">$$mdi:mous…</tspan></text>
 </g>
 <g transform="translate(742, 196)" class="key keypos-44">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MCLK</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">$$mdi:mous…</tspan></text>
 </g>
 <g transform="translate(798, 203)" class="key keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">RCLK</tspan>
-</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">$$mdi:mous…</tspan></text>
 </g>
 <g transform="translate(854, 217)" class="key trans keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
