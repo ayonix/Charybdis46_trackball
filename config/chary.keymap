@@ -59,7 +59,7 @@
                 &none           &kp X            &kp M           &kp L           &kp C           &kp P       &kp Q     &kp F            &kp O            &kp U                 &kp DE_A_UMLAUT  &kp BACKSPACE
                 &kp DE_SZ       &hrml LGUI R     &hrml LALT S    &hrml LCTRL N   &hrml LSHIFT T  &kp G       &kp B     &hrmr LSHIFT H   &hrmr LCTRL E    &hrmr LALT I          &hrmr LGUI A     &kp COMMA
                 &sk LSHFT       &lt BUTTON DE_Z  &mt RALT V      &kp W           &kp D           &kp J       &kp DE_Y  &kp K            &kp DE_O_UMLAUT  &mt RALT DE_U_UMLAUT  &kp DOT          &kp DE_SLASH
-                &none           &sk LSHIFT   &lt MEDIA ESC &lt NAV SPACE &lt MOUSE TAB                                     &lt SYMBOL ENTER &lt NUMBER BACKSPACE &lt FUN DEL   
+                &none           &sk LSHIFT   &lt MEDIA ESC &lt NAV SPACE &lt MOUSE TAB                                     &lt SYMBOL ENTER &lt NUMBER BACKSPACE &lt FUN DEL
             >;
         };
 
@@ -70,7 +70,7 @@
                 &kp T   &kp TAB   &kp Q    &kp W    &kp E       &kp R      &kp   &kp       &kp       &kp       &kp       &kp
                 &kp G   &kp LSHFT &kp A    &kp S    &kp D       &kp F      &kp   &kp       &kp       &kp       &kp       &kp
                 &kp B   &kp LCTRL &kp Y    &kp X    &kp C       &kp V      &kp   &kp       &kp       &kp       &kp       &kp
-                &none  &none &kp LEFT_ALT &kp SPACE &mo FUN               &lt SYMBOL ENTER &lt NUMBER BACKSPACE &lt FUN DEL 
+                &none  &none &kp LEFT_ALT &kp SPACE &mo FUN               &lt SYMBOL ENTER &lt NUMBER BACKSPACE &lt FUN DEL
             >;
         };
 
@@ -81,7 +81,7 @@
                 &none    &none      &to GAME   &none       &to BASE     &none       &none       &none       &none       &none       &none       &none
                 &none    &sk LGUI   &sk LALT   &sk LCTRL   &sk LSHIFT   &none       &caps_word  &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &none
                 &none    &none      &none      &none       &none        &none       &none       &kp HOME    &kp PG_DN   &kp PG_UP   &kp END     &none
-                &none    &none      &none      &none     &none                      &kp ENTER   &kp BACKSPACE   &kp DEL 
+                &none    &none      &none      &none     &none                      &kp ENTER   &kp BACKSPACE   &kp DEL
             >;
         };
 
@@ -92,7 +92,7 @@
                 &none    &none      &to GAME   &none       &to BASE     &none       &none   &none           &none           &none         &none             &none
                 &none    &sk LGUI   &sk LALT   &sk LCTRL   &sk LSHIFT   &none       &none   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT   &none
                 &none    &none      &none      &none       &none        &none       &none   &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT   &none
-                &none    &none      &none      &none     &none                      &mkp LCLK    &mkp RCLK   &mkp MCLK 
+                &none    &none      &none      &none     &none                      &mkp RCLK    &mkp LCLK   &mkp MCLK
             >;
         };
 
@@ -103,7 +103,7 @@
                 &none    &none      &to GAME   &none       &to BASE     &none       &none         &bt BT_PRV    &none          &none         &bt BT_NXT    &none
                 &none    &sk LGUI   &sk LALT   &sk LCTRL   &sk LSHIFT   &none       &none         &kp C_PREV    &kp C_VOL_DN   &kp C_VOL_UP  &kp C_NEXT    &none
                 &none    &none      &none      &none       &none        &none       &out OUT_TOG  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3  &none
-                &none    &none      &none      &none     &none                      &kp C_STOP    &kp C_PLAY_PAUSE   &kp C_MUTE 
+                &none    &none      &none      &none     &none                      &kp C_STOP    &kp C_PLAY_PAUSE   &kp C_MUTE
             >;
         };
 
@@ -113,8 +113,8 @@
                 &none    &none         &none      &none       &none        &none             &none   &none       &none       &none       &none       &none
                 &none    &kp DE_SLASH  &kp N7     &kp N8      &kp N9       &kp KP_MULTIPLY   &none   &to BASE    &none       &to GAME    &none       &none
                 &none    &kp DE_SEMI   &kp N4     &kp N5      &kp N6       &kp KP_EQUAL      &none   &sk LSHIFT  &sk LCTRL   &sk LALT    &sk LGUI    &none
-                &none    &kp PRCNT     &kp N1     &kp N2      &kp N3       &kp KP_PLUS       &none   &none       &none       &none       &none       &none
-                &none    &none         &kp DOT    &kp N0      &kp MINUS                      &none    &none   &none 
+                &none    &kp DE_PRCNT     &kp N1     &kp N2      &kp N3       &kp KP_PLUS       &none   &none       &none       &none       &none       &none
+                &none    &none         &kp DOT    &kp N0      &kp KP_MINUS                      &none    &none   &none
             >;
         };
 
@@ -125,7 +125,7 @@
                 &none    &kp F12    &kp F7     &kp F8      &kp F9   &kp PSCRN   &none   &to BASE    &none       &to GAME    &none       &none
                 &none    &kp F11    &kp F4     &kp F5      &kp F6   &none       &none   &sk LSHIFT  &sk LCTRL   &sk LALT    &sk LGUI    &none
                 &none    &kp F10    &kp F1     &kp F2      &kp F3   &none       &none   &none       &none       &none       &none       &none
-                &none    &none      &none      &none     &none                      &none    &none   &none 
+                &none    &none      &none      &none     &none                      &none    &none   &none
             >;
         };
 
@@ -136,7 +136,7 @@
                 &none    &kp DE_CARET   &kp DE_GT       &kp DE_PERCENT    &kp DE_LT    &kp DE_QUESTION  &kp DE_TILDE  &kp DE_LBKT  &kp DE_DLLR   &kp DE_RBKT  &kp DE_BSLH   &none
                 &none    &kp DE_PLUS    &kp DE_RPAR     &kp DE_EQUAL      &kp DE_LPAR  &kp DE_HASH      &kp DE_AT     &kp DE_LBRC  &kp DE_DQT    &kp DE_RBRC  &kp DE_PIPE   &none
                 &none    &kp DE_MINUS   &kp DE_ASTRK    &kp DE_COLON      &kp DE_PLUS  &kp DE_EXCL      &kp DE_SQT    &kp DE_AMPS  &kp DE_GRAVE  &kp DE_DOT   &kp DE_SLASH  &none
-                &none    &none      &kp DE_SEMI      &kp SPACE     &kp DE_UNDER                         &none    &none   &none 
+                &none    &none      &kp DE_SEMI      &kp SPACE     &kp DE_UNDER                         &none    &none   &none
             >;
         };
 
@@ -144,10 +144,10 @@
             display-name = "button";
             bindings = <
                 &none  &none  &none      &none      &none      &none   &none  &none  &none  &none  &none  &none
-                &none  &none  &none      &none      &none      &none   &none  &none  &none  &none  &none  &none 
                 &none  &none  &none      &none      &none      &none   &none  &none  &none  &none  &none  &none
-                &none  &none  &kp LS(X)  &kp LS(C)  &kp LS(V)  &none   &none  &none  &none  &none  &none  &none
-                &none  &none  &none  &none  &none                      &none  &none  &none 
+                &none  &none  &none      &none      &none      &none   &none  &none  &none  &none  &none  &none
+                &none  &none  &kp LC(X)  &kp LC(C)  &kp LC(V)  &none   &none  &none  &none  &none  &none  &none
+                &none  &none  &none  &none  &none                      &none  &none  &none
             >;
         };
     };
