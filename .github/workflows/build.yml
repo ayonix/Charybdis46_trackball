@@ -3,6 +3,8 @@ on:
     paths:
       - "config/*.keymap"
       - "config/*.dtsi"
+      - "config/*.overlay"
+      - "config/*.conf"
   pull_request:
   workflow_dispatch:
 name: Build firmware
