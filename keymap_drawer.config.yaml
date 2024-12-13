@@ -1,4 +1,5 @@
 draw_config:
+  separate_combo_diagrams: true
   glyph_tap_size: 18
   glyph_hold_size: 15
   glyph_shifted_size: 15
