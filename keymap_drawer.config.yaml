@@ -1,5 +1,5 @@
 draw_config:
-  glyph_tap_size: 18  
+  glyph_tap_size: 18
   glyph_hold_size: 15
   glyph_shifted_size: 15
   glyphs: {}
@@ -15,50 +15,62 @@ parse_config:
     t: ▽
     type: trans
   zmk_keycode_map:
-    DE_SZ: 'ß'
-    DE_A_UMLAUT: 'Ä' 
-    DE_O_UMLAUT: 'Ö' 
-    DE_U_UMLAUT: 'Ü'
-    DE_COMMA: ','
-    DE_DOT: '.'
-    DE_MINUS: '-'
-    DE_HASH: '#'
-    DE_CARET: 'ˆ'
-    DE_GT: '>'
-    DE_LT: '<'
-    DE_PERCENT: '%'
-    DE_QUESTION: '?'
-    DE_PLUS: '+'
-    DE_LPAR: '('
-    DE_RPAR: ')'
-    DE_EQUAL: '='
-    DE_ASTRK: '*'
-    DE_COLON: ':'
-    DE_EXCL: '!'
-    DE_SEMI: ';'
-    DE_UNDER: '_'
-    DE_TILDE: '~'
-    DE_LBKT: '['
-    DE_RBKT: ']'
-    DE_LBRC: '{'
-    DE_RBRC: '}'
-    DE_DLLR: '$'
+    DE_SZ: "ß"
+    DE_A_UMLAUT: "Ä"
+    DE_O_UMLAUT: "Ö"
+    DE_U_UMLAUT: "Ü"
+    DE_COMMA: ","
+    DE_DOT: "."
+    DOT: "."
+    DE_MINUS: "-"
+    KP_MINUS: "-"
+    DE_HASH: "#"
+    DE_CARET: "ˆ"
+    DE_GT: ">"
+    DE_LT: "<"
+    DE_PERCENT: "%"
+    DE_PRCNT: "%"
+    DE_QUESTION: "?"
+    DE_PLUS: "+"
+    KP_PLUS: "+"
+    DE_LPAR: "("
+    DE_RPAR: ")"
+    DE_EQUAL: "="
+    KP_EQUAL: "="
+    DE_ASTRK: "*"
+    KP_MULTIPLY: "*"
+    DE_COLON: ":"
+    DE_EXCL: "!"
+    DE_SEMI: ";"
+    DE_UNDER: "_"
+    DE_TILDE: "~"
+    DE_LBKT: "["
+    DE_RBKT: "]"
+    DE_LBRC: "{"
+    DE_RBRC: "}"
+    DE_DLLR: "$"
     DE_BSLH: '\'
-    DE_PIPE: '|'
-    DE_SLASH: '/'
-    DE_GRAVE: '`'
-    DE_AMPS: '&'
+    DE_PIPE: "|"
+    DE_SLASH: "/"
+    DE_GRAVE: "`"
+    DE_AMPS: "&"
     DE_DQT: '"'
-    DE_AT: '@'
+    DE_AT: "@"
     DE_SQT: "'"
     UP: $$mdi:arrow-up$$
     DOWN: $$mdi:arrow-down$$
     LEFT: $$mdi:arrow-left$$
     RIGHT: $$mdi:arrow-right$$
+    HOME: ⇤
+    END: ⇥
+    PG_UP: ⤉
+    PG_DN: ⤈
     RETURN: ⮐
-    C_PP: $$mdi:play-pause$$
+    ENTER: ⮐
+    C_PLAY_PAUSE: $$mdi:play-pause$$
     C_NEXT: $$mdi:skip-forward$$
     C_PREV: $$mdi:skip-backward$$
+    C_STOP: $$mdi:stop$$
     C_MUTE: $$mdi:volume-mute$$
     C_VOL_UP: $$mdi:volume-plus$$
     C_VOL_DN: $$mdi:volume-minus$$
@@ -70,64 +82,65 @@ parse_config:
     SPACE: $$mdi:keyboard-space$$
     BACKSPACE: $$mdi:backspace-outline$$
     DELETE: $$mdi:backspace-reverse-outline$$
+    DEL: $$mdi:backspace-reverse-outline$$
   raw_binding_map:
-    '&out OUT_TOG':
+    "&out OUT_TOG":
       tap: $$mdi:toggle-switch$$
       hold: $$mdi:bluetooth$$
       shifted: $$mdi:usb$$
       type: toggle
-    '&bt BT_CLR':
+    "&bt BT_CLR":
       tap: $$mdi:bluetooth-settings$$
       shifted: $$mdi:close-thick$$
       type: sym_sub_text
-    '&bt BT_CLR_ALL':
+    "&bt BT_CLR_ALL":
       tap: $$mdi:bluetooth-settings$$
       shifted: $$mdi:close-thick$$
       hold: $$mdi:asterisk$$
       type: sym_sub_text
-    '&bt BT_SEL 0':
+    "&bt BT_SEL 0":
       tap: $$mdi:bluetooth-connect$$
-      shifted: '0'
+      shifted: "0"
       type: sym_sub_text
-    '&bt BT_SEL 1':
+    "&bt BT_SEL 1":
       tap: $$mdi:bluetooth-connect$$
-      shifted: '1'
+      shifted: "1"
       type: sym_sub_text
-    '&bt BT_SEL 2':
+    "&bt BT_SEL 2":
       tap: $$mdi:bluetooth-connect$$
-      shifted: '2'
+      shifted: "2"
       type: sym_sub_text
-    '&bt BT_SEL 3':
+    "&bt BT_SEL 3":
       tap: $$mdi:bluetooth-connect$$
-      shifted: '3'
+      shifted: "3"
       type: sym_sub_text
-    '&bt BT_SEL 4':
+    "&bt BT_SEL 4":
       tap: $$mdi:bluetooth-connect$$
-      shifted: '4'
+      shifted: "4"
       type: sym_sub_text
-    '&bt BT_PRV':
+    "&bt BT_PRV":
       tap: $$mdi:bluetooth$$
       shifted: $$mdi:skip-previous$$
       type: sym_sub_text
-    '&bt BT_NXT':
+    "&bt BT_NXT":
       tap: $$mdi:bluetooth$$
       shifted: $$mdi:skip-next$$
       type: sym_sub_text
-    '&msc SCRL_UP': '$$mdi:mouse-move-up$$'
-    '&msc SCRL_DOWN': '$$mdi:mouse-move-down$$'
-    '&mmv MOVE_LEFT':
-      tap:     $$mdi:tortoise$$
+    "&msc SCRL_UP": "$$mdi:mouse-move-up$$"
+    "&msc SCRL_DOWN": "$$mdi:mouse-move-down$$"
+    "&mmv MOVE_LEFT":
+      tap: $$mdi:tortoise$$
       shifted: $$mdi:arrow-left$$
-      type:    sym_by_sym
-    '&mmv MOVE_RIGHT':
-      tap:     $$mdi:tortoise$$
+      type: sym_by_sym
+    "&mmv MOVE_RIGHT":
+      tap: $$mdi:tortoise$$
       shifted: $$mdi:arrow-right$$
-      type:    sym_by_sym
-    '&mmv MOVE_UP':
-      tap:     $$mdi:tortoise$$
+      type: sym_by_sym
+    "&mmv MOVE_UP":
+      tap: $$mdi:tortoise$$
       shifted: $$mdi:arrow-up$$
-      type:    sym_by_sym
-    '&mmv MOVE_DOWN':
-      tap:     $$mdi:tortoise$$
+      type: sym_by_sym
+    "&mmv MOVE_DOWN":
+      tap: $$mdi:tortoise$$
       shifted: $$mdi:arrow-down$$
-      type:    sym_by_sym
+      type: sym_by_sym

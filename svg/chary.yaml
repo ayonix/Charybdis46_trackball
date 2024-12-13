@@ -46,16 +46,16 @@ layers:
   - K
   - Ö
   - {t: Ü, h: RALT}
-  - DOT
+  - .
   - /
   - ''
   - {t: LSHIFT, h: sticky}
   - {t: ESC, h: media}
   - {t: '$$mdi:keyboard-space$$', h: nav}
   - {t: TAB, h: mouse}
-  - {t: ENTER, h: symbol}
+  - {t: ⮐, h: symbol}
   - {t: '$$mdi:backspace-outline$$', h: number}
-  - {t: DEL, h: fun}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: fun}
   game:
   - '5'
   - ESC
@@ -110,9 +110,9 @@ layers:
   - LEFT ALT
   - $$mdi:keyboard-space$$
   - fun
-  - {t: ENTER, h: symbol}
+  - {t: ⮐, h: symbol}
   - {t: '$$mdi:backspace-outline$$', h: number}
-  - {t: DEL, h: fun}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: fun}
   nav:
   - ''
   - ''
@@ -157,19 +157,19 @@ layers:
   - ''
   - ''
   - ''
-  - HOME
-  - PG DN
-  - PG UP
-  - END
+  - ⇤
+  - ⤈
+  - ⤉
+  - ⇥
   - ''
   - ''
   - ''
   - ''
   - {type: held}
   - ''
-  - ENTER
+  - ⮐
   - $$mdi:backspace-outline$$
-  - DEL
+  - $$mdi:backspace-reverse-outline$$
   mouse:
   - ''
   - ''
@@ -281,8 +281,8 @@ layers:
   - {type: held}
   - ''
   - ''
-  - STOP
-  - PLAY PAUSE
+  - $$mdi:stop$$
+  - $$mdi:play-pause$$
   - $$mdi:volume-mute$$
   number:
   - ''
@@ -302,7 +302,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - KP MULTIPLY
+  - '*'
   - ''
   - {t: base, h: '$$mdi:toggle-switch$$'}
   - ''
@@ -314,7 +314,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - KP EQUAL
+  - '='
   - ''
   - {t: LSHIFT, h: sticky}
   - {t: LCTRL, h: sticky}
@@ -322,11 +322,11 @@ layers:
   - {t: LGUI, h: sticky}
   - ''
   - ''
-  - DE PRCNT
+  - '%'
   - '1'
   - '2'
   - '3'
-  - KP PLUS
+  - +
   - ''
   - ''
   - ''
@@ -335,9 +335,9 @@ layers:
   - ''
   - ''
   - ''
-  - DOT
+  - .
   - '0'
-  - KP MINUS
+  - '-'
   - ''
   - {type: held}
   - ''
