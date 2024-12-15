@@ -54,8 +54,8 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: nav}
   - {t: TAB, h: mouse}
   - {t: ⮐, h: symbol}
-  - {t: '$$mdi:backspace-outline$$', h: number}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: fun}
+  - {t: LSHFT, h: number}
+  - {t: BSPC, h: fun, s: '$$mdi:backspace-reverse-outline$$'}
   game:
   - '5'
   - ESC
@@ -513,5 +513,5 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [13, 17]
+- p: [19, 22]
   k: '&bootloader'
