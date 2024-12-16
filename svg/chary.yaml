@@ -53,9 +53,9 @@ layers:
   - {t: ESC, h: media}
   - {t: '$$mdi:keyboard-space$$', h: nav}
   - {t: TAB, h: mouse}
-  - {t: ⮐, h: symbol}
-  - {t: LSHFT, h: number}
   - {t: BSPC, h: fun, s: '$$mdi:backspace-reverse-outline$$'}
+  - {t: LSHFT, h: number}
+  - {t: ⮐, h: symbol}
   game:
   - '5'
   - ESC
@@ -395,9 +395,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
   - {type: held}
+  - ''
+  - ''
   symbol:
   - ''
   - ''
@@ -452,9 +452,9 @@ layers:
   - ;
   - $$mdi:keyboard-space$$
   - _
+  - ''
+  - ''
   - {type: held}
-  - ''
-  - ''
   button:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

@@ -15,13 +15,16 @@
 #define SYMBOL  7
 #define BUTTON  8
 
+#define TAPPING_TERM 200
+#define TAPPING_TERM_QUICK 150
+
 / {
     behaviors {
         hrml: hrml {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <TAPPING_TERM>;
             quick-tap-ms = <175>;
             flavor = "balanced";
             hold-trigger-on-release;
@@ -33,7 +36,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <TAPPING_TERM>;
             quick-tap-ms = <175>;
             flavor = "balanced";
             require-prior-idle-ms = <150>;
@@ -62,7 +65,7 @@
             bindings = <&mo>, <&skq>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <TAPPING_TERM_QUICK>;
             flavor = "tap-preferred";
         };
 
@@ -71,7 +74,7 @@
             bindings = <&mo>, <&bspc_del>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <TAPPING_TERM_QUICK>;
             flavor = "tap-preferred";
         };
     };
@@ -99,7 +102,7 @@
                 &none           &kp X            &kp M           &kp L           &kp C             &kp P       &kp Q     &kp F             &kp O            &kp U                   &kp DE_A_UMLAUT  &kp BACKSPACE
                 &kp DE_SZ       &hrml LGUI R     &hrml LALT S    &hrml LCTRL N   &hrml LSHIFT T    &kp G       &kp B     &hrmr LSHIFT H    &hrmr LCTRL E    &hrmr LALT I            &hrmr LGUI A     &kp COMMA
                 &skq LSHFT      &lt BUTTON DE_Z  &hrml RALT V    &kp W           &kp D             &kp J       &kp DE_Y  &kp K             &kp DE_O_UMLAUT  &hrmr RALT DE_U_UMLAUT  &kp DOT          &kp DE_SLASH
-                &none           &skq LSHIFT  &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB                                     &lt SYMBOL ENTER  &skq_mo NUMBER LSHFT  &lt_bspc FUN 0
+                    &none           &skq LSHIFT  &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB                                      &lt_bspc FUN 0  &skq_mo NUMBER LSHFT  &lt SYMBOL ENTER 
             >;
         };
 
