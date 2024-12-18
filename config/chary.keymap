@@ -139,7 +139,7 @@
                 &kp LCTRL &lt BUTTON DE_Z   &hrml RALT X  &kp C          &kp V              &kp B     &kp M   &kp N             &kp DE_COMMA    &hrmr RALT DE_DOT  &kp DE_MINUS           &none
                     &none           &skq LSHIFT  &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB                                      &lt_bspc FUN 0  &skq_mo NUMBER LSHFT  &lt SYMBOL ENTER
             >;
-        }
+        };
 
         game_layer {
             display-name = "game";
